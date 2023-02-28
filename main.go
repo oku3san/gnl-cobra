@@ -1,7 +1,11 @@
+/*
+Copyright © 2023 NAME HERE <EMAIL ADDRESS>
+
+*/
 package main
 
-import "fmt"
+import "github.com/oku3san/gnl-cobra/cmd"
 
 func main() {
-    fmt.Println("Hello world.")
+	cmd.Execute()
 }
